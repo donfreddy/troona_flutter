@@ -31,6 +31,7 @@ flutter:
   # Defines files available to the app
   assets:
     - assets/
+    - assets/google_fonts/
 
   # fonts:
   #   - family: Schyler
