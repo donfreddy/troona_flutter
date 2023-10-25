@@ -1,0 +1,15 @@
+{
+  "not_found_song": {
+    "add_music": "Ajoutez de la musique sur cet appareil",
+    "desc": "Désolé, vous ne pouvez utiliser cette application que si vous avez les fichiers audio sur cet appareil.",
+    "text_btn": "Compris"
+  },
+  "storage_permission": {
+    "title": "Autorisation d'accès au stockage",
+    "desc": "Cette application nécessite l'accès au contenu multimédia de votre appareil pour fonctionner.",
+    "desc2": "Vous devez donner cette autorisation à partir des paramètres / autorisations / stockage / autoriser.",
+    "open_settings": "Ouvrir les paramètres",
+    "allow_access": "Permettre l'accès"
+  },
+  "": ""
+}

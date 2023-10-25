@@ -1,0 +1,14 @@
+{
+  "not_found_song": {
+    "add_music": "Add music to this device",
+    "desc": "Sorry, you can only use this app if you have the audio files on this device.",
+    "text_btn": "Got It"
+  },
+  "storage_permission": {
+    "title": "Access storage permission",
+    "desc": "This application requires access to media content on your device to work.",
+    "desc2": "You need to give this permission from settings/permissions/storage/allow.",
+    "open_settings": "Open settings",
+    "allow_access": "Allow access"
+  }
+}
