@@ -1,4 +1,4 @@
-package com.dfreddy.troona.troona
+package com.dfreddy.troona
 
 import io.flutter.embedding.android.FlutterActivity
 
