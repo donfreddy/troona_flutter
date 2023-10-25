@@ -33,17 +33,21 @@ flutter:
     - assets/
     - assets/google_fonts/
 
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/custom-fonts/#from-packages
+  # Specifies fonts and their respective font weights (thickness)
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/google_fonts/Nunito-ExtraLight.ttf
+          weight: 200
+        - asset: assets/google_fonts/Nunito-Light.ttf
+          weight: 300
+        - asset: assets/google_fonts/Nunito-Regular.ttf
+          weight: 400
+        - asset: assets/google_fonts/Nunito-SemiBold.ttf
+          weight: 600
+        - asset: assets/google_fonts/Nunito-Bold.ttf
+          weight: 700
+        - asset: assets/google_fonts/Nunito-ExtraBold.ttf
+          weight: 800
+        - asset: assets/google_fonts/Nunito-Black.ttf
+          weight: 900
