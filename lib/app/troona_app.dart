@@ -1,5 +1,6 @@
 import 'package:flutter_neumorphic_plus/flutter_neumorphic.dart';
 import 'package:easy_localization/easy_localization.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:troona/core/config/routes/route.dart';
 import 'package:troona/core/config/routes/route_path.dart';
 import 'package:troona/core/config/themes/theme.dart';
@@ -10,7 +11,10 @@ class TroonaApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    //Todo: Get it from user preferences
+    // init screenUtil library
+    ScreenUtil.init(context);
+
+    //Todo: Get it from user preferencesÏ
     const accentColor = 0xffdd3f5d;
 
     return NeumorphicApp(
