@@ -24,6 +24,23 @@ dependencies:
   # Adapting screen and font size.Guaranteed to look good on different models.
   flutter_screenutil: ^5.9.0
 
+  # Bloc for state management
+  bloc: ^8.1.2
+  flutter_bloc: ^8.0.1
+
+  # Implement value based equality without needing to explicitly override == and hashCode.
+  equatable: ^2.0.5
+
+  # Lightweight and blazing fast key-value database written in pure Dart.
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Supplies the app with the directory location for storing files
+  path_provider: ^2.1.1
+
+  eva_icons_flutter: ^3.1.0
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -41,6 +58,7 @@ flutter:
   # Defines files available to the app
   assets:
     - assets/
+    - assets/icons/
     - assets/locales/
     - assets/google_fonts/
 
