@@ -24,10 +24,6 @@ dependencies:
   # Adapting screen and font size.Guaranteed to look good on different models.
   flutter_screenutil: ^5.9.0
 
-  # Bloc for state management
-  bloc: ^8.1.2
-  flutter_bloc: ^8.0.1
-
   # Implement value based equality without needing to explicitly override == and hashCode.
   equatable: ^2.0.5
 
@@ -35,17 +31,58 @@ dependencies:
   hive: ^2.2.3
   hive_flutter: ^1.1.0
 
+  # Officially endorsed state management library with O(1) access time from
+  # anywhere in the widget tree
+  path: ^1.8.3
+  provider: ^6.0.5
+
   # Supplies the app with the directory location for storing files
   path_provider: ^2.1.1
 
-  eva_icons_flutter: ^3.1.0
+  # Simplify the creation of a miniplayer.
+  miniplayer: ^1.0.1
 
+  # Show simple music visualizer animation
+  mini_music_visualizer: ^1.0.2
+
+  # Service Locator
+  get_it: ^7.6.4
+
+  # pre-canned animations for commonly-desired effects
+  animations: ^2.0.8
+
+  # Powerful package to create beautiful custom animations in no time.
+  simple_animations: ^5.0.2
+
+  # A feature-rich audio player
+  just_audio: ^0.9.35
+
+  # To play audio in the background while the screen is off.
+  audio_service: ^0.18.12
+  audio_session: ^0.1.16
+
+  # A Flutter implementation of React hooks
+  flutter_hooks: ^0.20.3
+
+  # An SVG rendering
+  flutter_svg: ^2.0.8
+
+  # Small, easy to use and extensible logger which prints beautiful logs.
+  logger: ^1.4.0
+
+  # query audios/tracks 🎶 from device storage.
+  on_audio_query: ^2.9.0
+
+  # Create a room to storage audio sections
+  on_audio_room: ^2.2.1+1
+
+  eva_icons_flutter: ^3.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.0
 
 # The following section is specific to Flutter packages.
 flutter:

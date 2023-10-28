@@ -1,5 +1,18 @@
+/*
+=============
+Author: Don Freddy
+Github: https://github.com/donfreddy
+Website: https://donfreddy.com
+=============
+Application: Troona Music
+Homepage: https://github.com/donfreddy/troona
+License: https://github.com/donfreddy/troona/blob/main/LICENSE
+Copyright: © 2023, Don Freddy. All rights reserved.
+=============
+*/
+
 import 'package:flutter_neumorphic_plus/flutter_neumorphic.dart';
-import 'package:troona/core/constants/constants.dart';
+import 'package:troona/constants/constants.dart';
 
 import 'style.dart';
 
