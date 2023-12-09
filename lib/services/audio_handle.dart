@@ -12,7 +12,6 @@ Copyright: © 2023, Don Freddy. All rights reserved.
 */
 
 import 'package:audio_service/audio_service.dart';
-import 'package:just_audio/just_audio.dart';
 
 abstract class TroonaAudioHandle {}
 
@@ -22,5 +21,5 @@ class TroonaAudioHandleImpl extends BaseAudioHandler
 
 
   // Late initialization
-  late AudioPlayer? _player;
+  // late AudioPlayer? _player;
 }

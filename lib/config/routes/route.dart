@@ -19,7 +19,7 @@ import 'package:troona/ui/shared/pages/no_found_found/not_found_page.dart';
 
 Route generateRoute(RouteSettings settings) {
   String? routeName = settings.name;
-  Object? args = settings.arguments;
+  //Object? args = settings.arguments;
 
   switch (routeName) {
     case RoutePath.loading:

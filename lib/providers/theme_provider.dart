@@ -12,11 +12,10 @@ Copyright: © 2023, Don Freddy. All rights reserved.
 */
 
 import 'package:flutter/material.dart';
-import 'package:hive/hive.dart';
 
 class ThemeProvider extends ChangeNotifier {
   // ---------------- Theme Mode ----------------
-  final bool _isDark = Hive.box('settings').get('darkMode', defaultValue: true) as bool;
+  // final bool _isDark = Hive.box('settings').get('darkMode', defaultValue: true) as bool;
 
 // ---------------- Accent Color ---------
 }
